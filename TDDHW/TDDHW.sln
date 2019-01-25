@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDHW", "TDDHW\TDDHW.csproj", "{02E43717-1FBC-4576-9BEA-902A214CDE86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDHWTest", "TestTDDHW\TDDHWTest.csproj", "{C09FC22B-FCE2-4C78-92C7-68C8349D4FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E43717-1FBC-4576-9BEA-902A214CDE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E43717-1FBC-4576-9BEA-902A214CDE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E43717-1FBC-4576-9BEA-902A214CDE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E43717-1FBC-4576-9BEA-902A214CDE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09FC22B-FCE2-4C78-92C7-68C8349D4FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09FC22B-FCE2-4C78-92C7-68C8349D4FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09FC22B-FCE2-4C78-92C7-68C8349D4FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09FC22B-FCE2-4C78-92C7-68C8349D4FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDDDED95-0E64-4309-8AAE-61656C973F50}
+	EndGlobalSection
+EndGlobal
