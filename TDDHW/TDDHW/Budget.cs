@@ -9,6 +9,13 @@ namespace TDDHW
 
         public int Query(DateTime start, DateTime end)
         {
+            if (start > end)
+            {
+                DateTime temp = start;
+                start = end;
+                end = temp;
+            }
+
             int Result = 0;
             foreach (KeyValuePair<DateTime, int> DailyValue in DailyValues)
             {
